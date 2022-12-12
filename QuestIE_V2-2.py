@@ -165,7 +165,8 @@ app.layout = html.Div([
         ]
     )
 
-])
+],
+style = {'margin' : '30px'})
 
 
 
