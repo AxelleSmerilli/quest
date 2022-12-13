@@ -263,7 +263,7 @@ def update_map_graph(products, year):
 
     )
     fig.update_layout(
-        title='Map by Countries',
+        title="Products' value supplied per country in " + str(year),
         geo_showcountries = True)
 
     return fig
